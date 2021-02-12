@@ -45,4 +45,4 @@ jobs:
     #   make release
 
     - name: Perform CodeQL Analysis
-      uses: ganeshkumarsv/codeql-action/analyze@52151b6701268ede40a02121f2de302ce3241f55
+      uses: ganeshkumarsv/codeql-action/analyze@879e30f65e4a502d2a1dee825bec2a72350ef816
