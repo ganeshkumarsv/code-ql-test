@@ -61,7 +61,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f current/requirements.txt ]; then pip install -r current/requirements.txt; fi
+        if [ -f requirements.txt ]; then pip install -r current/requirements.txt; fi
     - name: Push To Datadog
       env: 
         DD_API_KEY: ${{ secrets.DD_API_KEY }}
