@@ -1,2 +1,2 @@
 # code-ql-test
-Testing Codeql Action
+## Testing Codeql Action
