@@ -45,7 +45,7 @@ jobs:
     #   make release
 
     - name: Perform CodeQL Analysis
-      uses: ganeshkumarsv/codeql-action/analyze@v2
+      uses: ganeshkumarsv/codeql-action/analyze@v1
       with:
         upload: "false"
 
