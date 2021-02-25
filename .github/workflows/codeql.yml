@@ -47,7 +47,7 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: ganeshkumarsv/codeql-action/analyze@v1
       with:
-        upload: "false"
+        upload: "true"
 
     - name: Set up Python 3.8
       uses: actions/setup-python@v1
