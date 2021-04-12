@@ -49,10 +49,10 @@ jobs:
       with:
         upload: "false"
 
-    - name: Set up Python 2.7
+    - name: Set up Python 3.8
       uses: actions/setup-python@v1
       with:
-        python-version: '2.x'
+        python-version: '3.x'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
