@@ -71,11 +71,11 @@ jobs:
     - name: artifacts
       uses: actions/upload-artifact@v2
       with:
-         name: sarif
+         name: sarif-go
          path: /home/ec2-user/_work/code-ql-test-1/results/go-builtin.sarif  
 
     - name: artifacts
       uses: actions/upload-artifact@v2
       with:
-         name: sarif
+         name: sarif-python
          path: /home/ec2-user/_work/code-ql-test-1/results/python-builtin.sarif
