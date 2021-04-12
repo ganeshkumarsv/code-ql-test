@@ -67,3 +67,9 @@ jobs:
       uses: github/codeql-action/analyze@v1
       with:
         upload: "false"
+        
+    - name: artifacts
+      uses: actions/upload-artifact@v2
+      with:
+         name: sarif
+         path: /home/runner/work/code-ql-test-1/results/go-builtin.sarif    
