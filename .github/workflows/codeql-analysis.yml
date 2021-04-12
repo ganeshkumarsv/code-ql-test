@@ -72,10 +72,10 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
          name: sarif
-         path: /home/runner/work/code-ql-test-1/results/go-builtin.sarif  
+         path: /home/ec2-user/_work/code-ql-test-1/code-ql-test-1/results/go-builtin.sarif  
 
     - name: artifacts
       uses: actions/upload-artifact@v2
       with:
          name: sarif
-         path: /home/runner/work/code-ql-test-1/results/python-builtin.sarif
+         path: /home/ec2-user/_work/code-ql-test-1/code-ql-test-1/results/python-builtin.sarif
